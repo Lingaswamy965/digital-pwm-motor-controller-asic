@@ -1,0 +1,43 @@
+OpenROAD v2.0-25794-g7cbd77e248 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== RESET REMOVAL DIAGNOSTIC =====
+Startpoint: reset (input port clocked by clk)
+Endpoint: counter[4]$_DFF_PP0_ (removal check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 v input external delay
+   0.00    2.00 v reset (in)
+   3.05    5.05 v input10/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   1.28    6.33 ^ _059_/Y (sky130_fd_sc_hd__inv_1)
+   0.00    6.33 ^ counter[4]$_DFF_PP0_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+           6.33   data arrival time
+
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.46    0.46 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
+   0.65    1.11 ^ clkbuf_1_1__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
+   0.00    1.11 ^ counter[4]$_DFF_PP0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.00    1.11   clock reconvergence pessimism
+   3.22    4.33   library removal time
+           4.33   data required time
+---------------------------------------------------------
+           4.33   data required time
+          -6.33   data arrival time
+---------------------------------------------------------
+           1.99   slack (MET)
+
+
+
+===== WORST SLACK =====
+worst slack max -3.14
+worst slack min 1.99
+tns max -3.14

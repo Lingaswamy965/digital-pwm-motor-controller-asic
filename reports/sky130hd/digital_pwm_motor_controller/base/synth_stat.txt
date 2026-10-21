@@ -1,0 +1,41 @@
+
+21. Printing statistics.
+
+=== digital_pwm_motor_controller ===
+
+        +----------------------------Count including submodules.
+        |        +-------------------Area including submodules.
+        |        |        +----------Local count, excluding submodules.
+        |        |        |        +-Local area, excluding submodules.
+        |        |        |        | 
+       72        -       72        - wires
+       79        -       79        - wire bits
+       13        -       13        - public wires
+       20        -       20        - public wire bits
+        5        -        5        - ports
+       12        -       12        - port bits
+        -        -        -        - memories
+        -        -        -        - memory bits
+        -        -        -        - processes
+       59  579.306       59  579.306 cells
+        1   15.014        1   15.014   sky130_fd_sc_hd__a2111oi_2
+        3   15.014        3   15.014   sky130_fd_sc_hd__a21oi_1
+        7   43.792        7   43.792   sky130_fd_sc_hd__and2_1
+        1    7.507        1    7.507   sky130_fd_sc_hd__and2b_1
+        1    6.256        1    6.256   sky130_fd_sc_hd__and3_1
+        9  225.216        9  225.216   sky130_fd_sc_hd__dfrtp_1
+        9  112.608        9  112.608   sky130_fd_sc_hd__ha_1
+        9   33.782        9   33.782   sky130_fd_sc_hd__inv_1
+        3   11.261        3   11.261   sky130_fd_sc_hd__nand2_1
+        1    6.256        1    6.256   sky130_fd_sc_hd__nand2b_1
+        2    10.01        2    10.01   sky130_fd_sc_hd__nand3_1
+        2   12.512        2   12.512   sky130_fd_sc_hd__nand4_1
+        2    7.507        2    7.507   sky130_fd_sc_hd__nor2_1
+        2   12.512        2   12.512   sky130_fd_sc_hd__nor2b_1
+        1    7.507        1    7.507   sky130_fd_sc_hd__o211ai_1
+        5   43.792        5   43.792   sky130_fd_sc_hd__xnor2_1
+        1    8.758        1    8.758   sky130_fd_sc_hd__xor2_1
+
+   Chip area for module '\digital_pwm_motor_controller': 579.305600
+     of which used for sequential elements: 225.216000 (38.88%)
+

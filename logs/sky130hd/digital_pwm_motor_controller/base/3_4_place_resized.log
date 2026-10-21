@@ -1,0 +1,39 @@
+OpenROAD v2.0-25794-g7cbd77e248 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+read_liberty /home/vscode/Desktop/OpenROAD-flow-scripts/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_db ./results/sky130hd/digital_pwm_motor_controller/base/3_3_place_gp.odb
+read_sdc ./results/sky130hd/digital_pwm_motor_controller/base/2_floorplan.sdc
+source /home/vscode/Desktop/OpenROAD-flow-scripts/flow/platforms/sky130hd/setRC.tcl
+estimate_parasitics -placement
+Perform buffer insertion and gate resizing...
+repair_design -verbose -match_cell_footprint
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |        90
+       10 |     +0.0% |       0 |       0 |             0 |        80
+       20 |     +0.0% |       0 |       0 |             0 |        70
+       30 |     +0.0% |       0 |       0 |             0 |        60
+       40 |     +0.0% |       0 |       0 |             0 |        50
+       50 |     +0.0% |       0 |       0 |             0 |        40
+       60 |     +0.0% |       0 |       0 |             0 |        30
+       70 |     +0.0% |       0 |       0 |             0 |        20
+       80 |     +0.0% |       0 |       0 |             0 |        10
+       90 |     +0.0% |       0 |       0 |             0 |         0
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+Floating nets: 
+Report metrics stage 3, resizer...
+
+==========================================================================
+resizer report_design_area
+--------------------------------------------------------------------------
+Design area 689 um^2 39% utilization.
+Instance count before 95, after 95
+Pin count before 223, after 223
+write_db ./results/sky130hd/digital_pwm_motor_controller/base/3_4_place_resized.odb
+Elapsed time: 0:00.77[h:]min:sec. CPU time: user 0.55 sys 0.19 (96%). Peak memory: 131016KB.
+Log                       Ext     Elapsed/s Peak Memory/MB sha1sum result [0:20)
+3_4_place_resized         .odb            0            127 3150c76a473ba458127c

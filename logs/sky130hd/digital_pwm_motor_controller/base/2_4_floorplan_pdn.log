@@ -1,0 +1,15 @@
+OpenROAD v2.0-25794-g7cbd77e248 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+read_liberty /home/vscode/Desktop/OpenROAD-flow-scripts/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_db ./results/sky130hd/digital_pwm_motor_controller/base/2_3_floorplan_tapcell.odb
+read_sdc ./results/sky130hd/digital_pwm_motor_controller/base/2_1_floorplan.sdc
+source /home/vscode/Desktop/OpenROAD-flow-scripts/flow/platforms/sky130hd/setRC.tcl
+[INFO PDN-0001] Inserting grid: grid
+Design area 579 um^2 33% utilization.
+write_db ./results/sky130hd/digital_pwm_motor_controller/base/2_4_floorplan_pdn.odb
+Elapsed time: 0:00.49[h:]min:sec. CPU time: user 0.42 sys 0.07 (99%). Peak memory: 112388KB.
+Log                       Ext     Elapsed/s Peak Memory/MB sha1sum result [0:20)
+2_4_floorplan_pdn         .odb            0            109 837b00fedb55a4e85bee

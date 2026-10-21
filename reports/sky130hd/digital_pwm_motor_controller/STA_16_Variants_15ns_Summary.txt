@@ -1,0 +1,85 @@
+DIGITAL PWM MOTOR CONTROLLER - 15 ns STA SUMMARY
+Clock period: 15 ns
+Clock frequency: approximately 66.67 MHz
+Library variants: 16
+ 
+===== sky130_fd_sc_hd__ff_100C_1v65 =====
+worst slack max 12.06
+tns max 0.00
+worst slack min 0.50
+tns min 0.00
+===== sky130_fd_sc_hd__ff_100C_1v95 =====
+worst slack max 12.28
+tns max 0.00
+worst slack min 0.40
+tns min 0.00
+===== sky130_fd_sc_hd__ff_n40C_1v56 =====
+worst slack max 11.76
+tns max 0.00
+worst slack min 0.59
+tns min 0.00
+===== sky130_fd_sc_hd__ff_n40C_1v65 =====
+worst slack max 11.95
+tns max 0.00
+worst slack min 0.53
+tns min 0.00
+===== sky130_fd_sc_hd__ff_n40C_1v76 =====
+worst slack max 12.12
+tns max 0.00
+worst slack min 0.47
+tns min 0.00
+===== sky130_fd_sc_hd__ff_n40C_1v95 =====
+worst slack max 12.31
+tns max 0.00
+worst slack min 0.39
+tns min 0.00
+===== sky130_fd_sc_hd__ss_100C_1v40 =====
+worst slack max 9.53
+tns max 0.00
+worst slack min 1.68
+tns min 0.00
+===== sky130_fd_sc_hd__ss_100C_1v60 =====
+worst slack max 10.69
+tns max 0.00
+worst slack min 1.20
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v28 =====
+worst slack max 1.86
+tns max 0.00
+worst slack min 1.99
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v35 =====
+worst slack max 5.92
+tns max 0.00
+worst slack min 1.54
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v40 =====
+worst slack max 7.48
+tns max 0.00
+worst slack min 1.58
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v44 =====
+worst slack max 8.21
+tns max 0.00
+worst slack min 1.75
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v60 =====
+worst slack max 10.23
+tns max 0.00
+worst slack min 1.26
+tns min 0.00
+===== sky130_fd_sc_hd__ss_n40C_1v76 =====
+worst slack max 11.05
+tns max 0.00
+worst slack min 0.94
+tns min 0.00
+===== sky130_fd_sc_hd__tt_025C_1v80 =====
+worst slack max 11.81
+tns max 0.00
+worst slack min 0.61
+tns min 0.00
+===== sky130_fd_sc_hd__tt_100C_1v80 =====
+worst slack max 11.84
+tns max 0.00
+worst slack min 0.61
+tns min 0.00

@@ -1,0 +1,27 @@
+DIGITAL PWM MOTOR CONTROLLER ASIC
+SKY130HD — THREE-CORNER STA SUMMARY
+
+Clock period: 10 ns
+Clock frequency: 100 MHz
+Parasitics: Estimated using global-routing data
+
+PVT CORNER RESULTS
+
+Corner     Setup Slack (ns)     Hold Slack (ns)
+TT         +6.71                +0.65
+SS         +5.52                +1.27
+FF         +7.25                +0.42
+
+SUMMARY
+All reported worst setup and hold slack values are positive
+for the three selected corners under the analysis settings used.
+
+TT: sky130_fd_sc_hd__tt_025C_1v80.lib
+SS: sky130_fd_sc_hd__ss_100C_1v60.lib
+FF: sky130_fd_sc_hd__ff_n40C_1v95.lib
+
+NOTE
+This analysis used estimate_parasitics -global_routing.
+It did not use extracted SPEF parasitics.
+The three selected corners represent typical, slow, and fast
+conditions; they do not represent every possible PVT variant.
