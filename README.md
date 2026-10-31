@@ -1,6 +1,14 @@
+
 # Digital PWM Motor Controller — ASIC Implementation
 
 **Verilog RTL | SKY130HD | OpenROAD | Physical Design | 16-Variant Static Timing Analysis**
+
+## Project Demonstration Video
+
+Watch the complete project demonstration video:
+
+[▶ Click Here to Watch Digital PWM Motor Controller](https://drive.google.com/file/d/102BLm3aqtRccGRXBWV3LBBCLyICt-IgS/view?usp=drive_link)
+
 ## 1. Project Introduction
 
 The **Digital PWM Motor Controller ASIC Implementation** project demonstrates the design and implementation of an 8-bit counter-based Pulse Width Modulation (PWM) controller using Verilog HDL.
@@ -278,5 +286,3 @@ The project provides practical experience with the connection between digital lo
 | `results/sky130hd/digital_pwm_motor_controller/base/6_final.v` | Final netlist |
 
 The `outputs/` directory contains screenshots from the project workflow, while `logs/` and `reports/` preserve implementation and timing evidence.
-
-
